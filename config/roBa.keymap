@@ -164,7 +164,7 @@
             bindings = <
 &kp LS(TAB)                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &trans           &trans        &trans           &trans        &trans
 &mt LEFT_SHIFT LEFT_ARROW  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &kp ESC        &trans             &kp KP_PLUS      &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &mt RIGHT_SHIFT ENTER
-&kp COLON                  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(K)      &kp BACKSPACE      &kp INT_YEN      &kp DOLLAR    &kp KP_COMMA     &kp KP_DOT    &kp DELETE
+&kp COLON                  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(K)      &kp BACKSPACE      &kp INT_YEN      &kp DOLLAR    &mt RCTRL COMMA  &kp KP_DOT    &kp DELETE
 &kp KP_NUMBER_0            &double_kp_00    &kp SPACE        &kp LC(LS(A))    &kp LA(F4)       &kp LC(R)      &kp RC(PAGE_DOWN)  &kp RC(PAGE_UP)                                               &mt LCTRL PERCENT
             >;
 
@@ -182,10 +182,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RIGHT_ALT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
