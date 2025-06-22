@@ -98,7 +98,8 @@
         mb2_then_return_default_layer: mb2_then_default_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp MB2 &macro_wait 250 &to 0>;
+            bindings = <&mkp MB2>, <&macro_wait_time 250>, <&to 0>;
+
             label = "MB2_THEN_RETURN_DEFAULT_RAYER";
         };
     };
