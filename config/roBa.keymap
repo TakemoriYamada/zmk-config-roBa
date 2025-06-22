@@ -140,10 +140,10 @@
 
         Symbol {
             bindings = <
-&kp F6            &kp F7             &kp F8          &kp F9           &kp F10                                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp TILDE         &kp PIPE
-&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &kp LC(B)                  &kp RA(B)  &kp SINGLE_QUOTE      &kp AT_SIGN            &kp ASTRK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT    &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)                  &kp RA(N)  &kp RC(RS(Z))         &kp SEMICOLON          &kp COMMA  &kp PERIOD        &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_ALT       &kp LEFT_GUI    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LC(LS(LA(LG(C))))      &kp RG(C)  &kp RC(Z)                                                                 &kp UNDERSCORE
+&kp F6            &kp F7             &kp F8          &kp F9           &kp F10                                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
+&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &kp LC(B)                  &kp RA(B)  &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT    &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)                  &kp RA(N)  &kp RC(RS(Z))         &kp SEMICOLON          &kp COMMA       &kp PERIOD        &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT       &kp LEFT_GUI    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LC(LS(LA(LG(C))))      &kp RG(C)  &kp RC(Z)                                                                      &kp RC(K)
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
@@ -164,7 +164,7 @@
             bindings = <
 &kp LS(TAB)                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &trans           &trans        &trans           &trans        &trans
 &mt LEFT_SHIFT LEFT_ARROW  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &kp ESC        &trans             &kp KP_PLUS      &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &mt RIGHT_SHIFT ENTER
-&kp COLON                  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(K)      &kp BACKSPACE      &kp INT_YEN      &kp DOLLAR    &mt RCTRL COMMA  &kp KP_DOT    &kp DELETE
+&kp COLON                  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &trans         &kp BACKSPACE      &kp INT_YEN      &kp DOLLAR    &mt RCTRL COMMA  &kp KP_DOT    &kp DELETE
 &kp KP_NUMBER_0            &double_kp_00    &kp SPACE        &kp LC(LS(A))    &kp LA(F4)       &kp LC(R)      &kp RC(PAGE_DOWN)  &kp RC(PAGE_UP)                                               &mt LCTRL PERCENT
             >;
 
