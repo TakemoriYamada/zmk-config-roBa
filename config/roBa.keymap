@@ -94,6 +94,15 @@
             bindings = <&kp N0 &kp N0 &kp N0 &kp N1 &kp N2 &kp N3 &kp N2 &kp N7 &kp AT &kp B &kp S &kp LS(R)>;
             label = "ID";
         };
+
+        mb2_then_return_default_layer: mb2_then_default_layer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB2>, <&macro_wait_time 250>, <&to 0>;
+
+            label = "MB2_THEN_RETURN_DEFAULT_RAYER";
+        };
+
     };
 
     behaviors {
