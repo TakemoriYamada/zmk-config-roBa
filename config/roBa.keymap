@@ -102,7 +102,6 @@
 
             label = "MB2_THEN_RETURN_DEFAULT_RAYER";
         };
-
     };
 
     behaviors {
@@ -146,6 +145,8 @@
 &kp LEFT_SHIFT    &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)                  &kp RA(N)  &kp RC(RS(Z))         &kp SEMICOLON          &kp COMMA  &kp PERIOD        &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_ALT       &kp LEFT_GUI    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LC(LS(LA(LG(C))))      &kp RG(C)  &kp RC(Z)                                                                 &kp UNDERSCORE
             >;
+
+            sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
         };
 
         FUNCTION {
