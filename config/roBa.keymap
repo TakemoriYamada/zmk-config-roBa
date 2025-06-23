@@ -132,7 +132,7 @@
 &kp Q             &kp W          &kp E         &kp R                &kp T                                         &kp Y        &kp U  &kp I     &kp O            &mt RSHFT P
 &mt RCTRL A       &kp S          &kp D         &kp F                &kp G        &kp LG(F5)      &kp SEMICOLON    &kp H        &kp J  &kp K     &mt RIGHT_ALT L  &mt LCTRL ENTER
 &mt LEFT_SHIFT Z  &kp X          &kp C         &kp V                &kp B        &trans          &kp BACKSPACE    &kp N        &kp M  &mkp MB1  &lt 3 PERIOD     &kp DELETE
-&mt LCTRL ESC     &kp RIGHT_ALT  &kp LEFT_GUI  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB       &lt 1 LS(LC(A))  &lt 2 RG(F)                                    &kp RC(P)
+&mt LCTRL ESC     &kp RIGHT_ALT  &kp LEFT_GUI  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB       &lt 1 LS(LC(A))  &lt 2 RC(P)                                    &kp RG(F)
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
