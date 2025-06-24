@@ -128,6 +128,16 @@
             tap-ms = <150>;  // デバウンスと暴走防止
         };
 
+        behaviors {
+            layer3_or_mb2: layer3_or_mb2 {
+                compatible = "zmk,behavior-hold-tap";
+                label = "LAYER3_OR_MB2";
+                #binding-cells = <0>;
+                flavor = "balanced";
+                tapping-term-ms = <200>;
+                bindings = <&mo 3>, <&mkp MB2>;
+    　  };
+
     };
 
     keymap {
