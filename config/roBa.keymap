@@ -43,6 +43,11 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <10 11 12 13 19 20 21 18>;
         };
+
+        to_AML {
+            bindings = <&lt_to_layer_0 3 0>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
