@@ -46,7 +46,7 @@
 
         to_AML {
             bindings = <&lt_to_layer_0 3 0>;
-            key-positions = <32 33>;
+            key-positions = <32 31>;
         };
     };
 
