@@ -136,7 +136,8 @@
                 flavor = "balanced";
                 tapping-term-ms = <200>;
                 bindings = <&mo 3>, <&mkp MB2>;
-    　  };
+            };
+        };
 
     };
 
