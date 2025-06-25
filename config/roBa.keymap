@@ -125,7 +125,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <150>;  // デバウンスと暴走防止
+            tap-ms = <300>;  // デバウンスと暴走防止
         };
     };
 
