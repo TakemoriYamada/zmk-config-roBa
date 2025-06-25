@@ -157,7 +157,7 @@
         FUNCTION {
             bindings = <
 &kp LC(T)         &kp LC(W)        &kp LC(R)      &kp LC(LA(TAB))       &kp LS(LC(TAB))                                    &kp RC(TAB)         &kp RS(RA(RC(TAB)))  &kp RG(F5)      &kp PAGE_UP      &mt RIGHT_ALT RC(V)
-&kp LC(A)         &kp LA(LG(M))    &kp LA(PLUS)   &kp LS(LG(A))         &kp LC(PLUS)     &kp LC(N0)         &trans         &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp PAGE_DOWN    &mt RIGHT_SHIFT RG(V)
+&kp LC(A)         &kp LA(LG(M))    &kp LA(PLUS)   &kp LS(LG(A))         &kp LC(EQUAL)    &kp LC(N0)         &trans         &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp PAGE_DOWN    &mt RIGHT_SHIFT RG(V)
 &kp LEFT_SHIFT    &kp LA(AT_SIGN)  &kp LA(MINUS)  &kp LA(LEFT_BRACKET)  &kp LC(MINUS)    &trans             &kp BACKSPACE  &kp RIGHT_ALT       &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_CONTROL
 &kp LEFT_CONTROL  &kp LEFT_ALT     &kp LEFT_GUI   &trans                &trans           &kp LA(LG(F))      &kp RC(X)      &kp RC(C)                                                                 &kp RC(F)
             >;
