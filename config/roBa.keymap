@@ -132,7 +132,7 @@
         FUNCTION {
             bindings = <
 &kp LC(T)       &kp LC(W)         &kp LC(R)      &kp LC(LA(TAB))       &kp LS(LC(TAB))                                 &kp RC(TAB)           &kp RS(RA(RC(TAB)))  &kp RG(F5)      &kp PAGE_UP      &kp RC(V)
-&kp LC(A)       &kp LA(LG(M))     &kp LA(PLUS)   &kp LS(LG(A))         &kp LC(EQUAL)    &kp LC(N0)      &ID            &kp RA(LEFT_ARROW)    &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp PAGE_DOWN    &kp RG(V)
+&kp LC(A)       &kp LA(LG(M))     &kp LA(CARET)  &kp LS(LG(A))         &kp LC(EQUAL)    &kp LC(N0)      &ID            &kp RA(LEFT_ARROW)    &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp PAGE_DOWN    &kp RG(V)
 &kp LEFT_SHIFT  &kp LA(AT_SIGN)   &kp LA(LG(F))  &kp LA(LEFT_BRACKET)  &kp LC(MINUS)    &trans          &kp BACKSPACE  &mt RIGHT_SHIFT HOME  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
 &kp LEFT_GUI    &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                &trans           &trans          &kp RC(X)      &kp RC(C)                                                                   &kp RC(F)
             >;
