@@ -102,6 +102,15 @@
 
             tap-ms = <50>;  // デバウンスと暴走防止
         };
+        mb2_hold_layer3: mb2_hold_layer3 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MB2_HOLD_LAYER3";
+            #binding-cells = <0>;
+            flavor = "balanced";              // 他に "hold-preferred" などあり
+            tapping-term-ms = <200>;          // タップと判定される時間
+            bindings = <&mo 5>, <&mkp MB2>;   // ホールドでレイヤー5へ、タップでMB2
+        };
+
     };
 
     keymap {
