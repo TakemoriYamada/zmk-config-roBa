@@ -34,10 +34,14 @@
             key-positions = <40 21>;
         };
 
-        Num_Shift {
+        RIGHT_SHIFT2 {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 32>;
-            layers = <3>;
+        };
+
+        LEFT_SHIFT2 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <22 23>;
         };
     };
 
