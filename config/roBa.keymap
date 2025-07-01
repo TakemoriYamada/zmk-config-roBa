@@ -33,6 +33,12 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 40>;
         };
+
+        Num_Shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <33 32>;
+            layers = <3>;
+        };
     };
 
     macros {
