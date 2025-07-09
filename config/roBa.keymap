@@ -48,6 +48,11 @@
             bindings = <&mkp MB2>;
             key-positions = <31 32>;
         };
+
+        d {
+            bindings = <&lt_to_layer_0 3 0>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
