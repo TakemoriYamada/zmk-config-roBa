@@ -48,6 +48,11 @@
             bindings = <&mkp MB2>;
             key-positions = <31 32>;
         };
+
+        Caps_Lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <35 36>;
+        };
     };
 
     macros {
