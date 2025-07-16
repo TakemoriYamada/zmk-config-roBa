@@ -50,7 +50,7 @@
         };
 
         Caps_Lock {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&kp LOCKING_CAPS>;
             key-positions = <35 36>;
         };
     };
