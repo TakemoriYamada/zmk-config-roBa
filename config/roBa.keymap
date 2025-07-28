@@ -172,9 +172,9 @@
 
         NUM {
             bindings = <
-&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                          &trans             &trans        &kp COLON                 &kp TILDE     &kp PERCENT
+&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                          &kp INT_YEN        &kp DOLLAR    &kp COLON                 &kp TILDE     &kp PERCENT
 &kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &ps              &kp KP_PLUS        &kp KP_MINUS  &kp KP_ASTERISK           &kp KP_SLASH  &kp ENTER
-&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &kp BACKSPACE    &kp INT_YEN        &kp COMMA     &mt RIGHT_CONTROL KP_DOT  &kp DOLLAR    &kp DELETE
+&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &kp BACKSPACE    &trans             &kp COMMA     &mt RIGHT_CONTROL KP_DOT  &trans        &kp DELETE
 &kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LC(AT_SIGN)  &kp LA(F4)       &kp LC(R)      &kp RC(PAGE_UP)  &kp RC(PAGE_DOWN)                                                        &mt RCTRL RC(K)
             >;
 
