@@ -152,8 +152,8 @@
             bindings = <
 &kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &kp LC(B)      &kp RA(B)  &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)      &kp RA(N)  &trans                &kp COMMA              &kp PERIOD      &kp SLASH         &kp BACKSLASH
-&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LG(C)      &kp RC(Z)  &kp RC(Y)                                                                      &kp RC(K)
+&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)      &kp RA(N)  &trans                &trans                 &kp COMMA       &kp PERIOD        &kp SLASH
+&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LG(C)      &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
@@ -172,10 +172,10 @@
 
         NUM {
             bindings = <
-&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                        &kp INT_YEN            &kp DOLLAR    &kp COLON                 &kp TILDE          &kp PERCENT
-&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &ID            &kp KP_PLUS            &kp KP_MINUS  &kp KP_ASTERISK           &kp KP_SLASH       &kp ENTER
-&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &ps            &kp RC(PAGE_UP)        &kp COMMA     &mt RIGHT_CONTROL KP_DOT  &kp RC(PAGE_DOWN)  &kp DELETE
-&kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LC(AT_SIGN)  &kp LA(F4)       &kp LC(R)      &kp BACKSPACE  &kp RG(RC(RA(RS(C))))                                                             &mt RCTRL RC(K)
+&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                        &kp INT_YEN            &kp DOLLAR         &kp COLON                &kp TILDE     &kp PERCENT
+&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &ID            &kp KP_PLUS            &kp KP_MINUS       &kp KP_ASTERISK          &kp KP_SLASH  &kp ENTER
+&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &ps            &kp RC(PAGE_UP)        &kp RC(PAGE_DOWN)  &mt RIGHT_CONTROL COMMA  &kp DOT       &kp DELETE
+&kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LC(AT_SIGN)  &kp LA(F4)       &kp LC(R)      &kp BACKSPACE  &kp RG(RC(RA(RS(C))))                                                            &mt RCTRL RC(K)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
