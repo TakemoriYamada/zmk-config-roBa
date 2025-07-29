@@ -141,8 +141,8 @@
             bindings = <
 &kp Q             &kp W             &kp E         &kp R                &kp T                                           &kp Y        &kp U  &kp I     &kp O          &kp P
 &kp A             &kp S             &kp D         &kp F                &kp G        &kp LG(F5)        &trans           &kp H        &kp J  &kp K     &kp L          &kp ENTER
-&kp Z             &kp X             &kp C         &kp V                &kp B        &kp LEFT_GUI      &kp BACKSPACE    &kp N        &kp M  &mkp MB1  &kp SEMICOLON  &kp DELETE
-&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB         &lt 1 LS(LC(A))  &lt 2 RC(P)                                  &mt RIGHT_CONTROL RG(F)
+&kp Z             &kp X             &kp C         &kp V                &kp B        &kp LEFT_GUI      &kp RC(RS(A))    &kp N        &kp M  &mkp MB1  &kp SEMICOLON  &kp DELETE
+&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB         &lt 1 BACKSPACE  &lt 2 RC(P)                                  &mt RIGHT_CONTROL RG(F)
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -162,9 +162,9 @@
         FUNCTION {
             bindings = <
 &kp LC(LS(T))       &kp LC(W)         &kp LC(R)      &kp LC(T)              &kp LC(NUMBER_0)                             &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
-&mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LS(LG(A))          &kp LC(EQUAL)     &trans      &ID            &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
-&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LA(LG(F))  &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)     &trans      &kp BACKSPACE  &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
-&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans      &kp RC(X)      &kp RC(C)                                                                 &kp RC(F)
+&mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LS(LG(A))          &kp LC(EQUAL)     &trans      &trans         &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
+&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LA(LG(F))  &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)     &trans      &trans         &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
+&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans      &kp BACKSPACE  &kp RC(C)                                                                 &kp RC(F)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
@@ -172,10 +172,10 @@
 
         NUM {
             bindings = <
-&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                          &kp INT_YEN        &kp DOLLAR    &kp COLON                 &kp TILDE     &kp PERCENT
-&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &ps              &kp KP_PLUS        &kp KP_MINUS  &kp KP_ASTERISK           &kp KP_SLASH  &kp ENTER
-&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &kp BACKSPACE    &trans             &kp COMMA     &mt RIGHT_CONTROL KP_DOT  &trans        &kp DELETE
-&kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LC(AT_SIGN)  &kp LA(F4)       &kp LC(R)      &kp RC(PAGE_UP)  &kp RC(PAGE_DOWN)                                                        &mt RCTRL RC(K)
+&kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                        &kp INT_YEN      &kp DOLLAR    &kp COLON                 &kp TILDE          &kp PERCENT
+&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &ID            &kp KP_PLUS      &kp KP_MINUS  &kp KP_ASTERISK           &kp KP_SLASH       &kp ENTER
+&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(S)      &ps            &kp RC(PAGE_UP)  &kp COMMA     &mt RIGHT_CONTROL KP_DOT  &kp RC(PAGE_DOWN)  &kp DELETE
+&kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LC(AT_SIGN)  &kp LA(F4)       &kp LC(R)      &kp BACKSPACE  &kp RC(X)                                                                   &mt RCTRL RC(K)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
