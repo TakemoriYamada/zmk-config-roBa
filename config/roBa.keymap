@@ -167,7 +167,7 @@
 &kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans      &kp RC(X)  &kp RC(C)                                                                 &kp RC(F)
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
+            sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
 
         NUM {
