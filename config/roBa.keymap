@@ -164,7 +164,7 @@
 &kp LC(LS(T))       &kp LC(W)         &kp LC(R)      &kp LC(T)              &kp LC(NUMBER_0)                            &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
 &mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LS(LG(A))          &kp LC(EQUAL)     &kp LC(B)      &kp RA(B)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
 &kp LEFT_SHIFT      &kp LA(LBKT)      &kp LA(LG(F))  &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)     &kp LA(R)      &kp RA(N)  &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
-&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans         &kp RC(X)  &kp RC(C)                                                                 &kp RC(F)
+&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans         &kp RC(X)  &kp RC(C)                                                                 &mt LEFT_CONTROL RC(F)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
