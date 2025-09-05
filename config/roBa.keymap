@@ -151,8 +151,8 @@
         Symbol {
             bindings = <
 &kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &kp LC(B)      &kp RA(B)  &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LA(R)      &kp RA(N)  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &trans         &trans     &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &trans         &trans     &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
 &kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LG(C)      &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
             >;
 
@@ -161,10 +161,10 @@
 
         FUNCTION {
             bindings = <
-&kp LC(LS(T))       &kp LC(W)         &kp LC(R)      &kp LC(T)              &kp LC(NUMBER_0)                         &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
-&mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LS(LG(A))          &kp LC(EQUAL)     &trans      &trans     &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
-&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LA(LG(F))  &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)     &trans      &trans     &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
-&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans      &kp RC(X)  &kp RC(C)                                                                 &kp RC(F)
+&kp LC(LS(T))       &kp LC(W)         &kp LC(R)      &kp LC(T)              &kp LC(NUMBER_0)                            &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
+&mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LS(LG(A))          &kp LC(EQUAL)     &kp LC(B)      &kp RA(B)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
+&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LA(LG(F))  &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)     &kp LA(R)      &kp RA(N)  &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
+&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &trans                 &trans            &trans         &kp RC(X)  &kp RC(C)                                                                 &kp RC(F)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
