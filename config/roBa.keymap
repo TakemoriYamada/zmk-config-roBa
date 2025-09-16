@@ -112,6 +112,13 @@
 
             label = "MB2_THEN_RETURN_DEFAULT_RAYER";
         };
+
+        password2: password2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp M &kp C &kp N0 &kp N7 &kp N1 &kp NUMBER_3 &kp NUMBER_1 &kp N0>;
+            label = "PASSWORD2";
+        };
     };
 
     behaviors {
@@ -150,10 +157,10 @@
 
         Symbol {
             bindings = <
-&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &trans               &id        &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &kp LC(AT_SIGN)      &password  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
-&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LS(LC(F5))       &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
+&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND       &trans              &id        &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))   &password2          &password  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
+&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LG(F5))   &kp LS(LC(LG(F5)))  &kp LS(LC(F5))      &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
