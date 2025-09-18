@@ -180,8 +180,8 @@
         NUM {
             bindings = <
 &kp RS(TAB)         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &kp INT_YEN            &kp DOLLAR          &kp COLON                &kp TILDE     &kp PERCENT
-&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &kp F2         &kp RC(PG_UP)      &kp KP_PLUS            &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH  &kp ENTER
-&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp LC(R)      &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)       &kp RA(DOWN_ARROW)  &mt RIGHT_CONTROL COMMA  &kp DOT       &kp DELETE
+&kp LEFT_ARROW      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &none          &kp RC(PG_UP)      &kp KP_PLUS            &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH  &kp ENTER
+&mt LEFT_SHIFT ESC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp F2         &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)       &kp RA(DOWN_ARROW)  &mt RIGHT_CONTROL COMMA  &kp DOT       &kp DELETE
 &kp KP_NUMBER_0     &double_kp_00    &kp SPACE        &kp LS(LA(M))    &kp LS(LA(N))    &kp LG(C)      &kp BACKSPACE      &kp RG(RC(RA(RS(C))))                                                             &mt RCTRL RC(K)
             >;
 
