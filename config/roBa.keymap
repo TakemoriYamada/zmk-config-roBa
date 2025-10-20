@@ -126,7 +126,7 @@
         password2: password2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp M &kp C &kp N0 &kp N7 &kp N1 &kp NUMBER_3 &kp NUMBER_1 &kp N0>;
+            bindings = <&kp A &kp M &kp C &kp N0 &kp N7 &kp N1 &kp N3 &kp N1 &kp N0>;
             label = "PASSWORD2";
         };
     };
