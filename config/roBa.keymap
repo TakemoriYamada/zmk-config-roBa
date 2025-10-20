@@ -58,6 +58,11 @@
             bindings = <&lt_to_layer_0 1 0>;
             key-positions = <40 41>;
         };
+
+        ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <40 33>;
+        };
     };
 
     macros {
@@ -175,7 +180,7 @@
             bindings = <
 &kp LA(F4)          &kp LC(W)         &kp F4         &kp LC(R)              &kp LC(T)                                          &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
 &mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LG(LA(F))          &kp LC(EQUAL)  &kp LC(B)          &kp RC(AT_SIGN)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &mt RSHIFT RC(V)
-&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LC(N)      &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(S)          &kp RC(R)        &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_CONTROL END
+&kp LEFT_SHIFT      &kp LA(LBKT)      &kp LC(N)      &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(S)          &kp RC(R)        &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
 &kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LC(LS(A))          &kp LC(N0)     &kp LC(LS(T))      &kp RC(X)        &kp RC(C)                                                                 &mt LEFT_CONTROL RC(F)
             >;
 
