@@ -111,7 +111,7 @@
         password: ID {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N0 &kp N0 &kp N0 &kp N1 &kp N2 &kp N3 &kp N2 &kp N7 &kp AT &kp B &kp S &kp LS(R)>;
+            bindings = <&kp N0 &kp N0 &kp N0 &kp N1 &kp N2 &kp N3 &kp N2 &kp N7 &kp AT_SIGN &kp B &kp S &kp LS(R)>;
             label = "ID";
         };
 
