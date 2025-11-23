@@ -190,7 +190,7 @@
         NUM {
             bindings = <
 &kp RS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &kp INT_YEN            &kp DOLLAR          &kp COLON        &kp TILDE         &kp PERCENT
-&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &trans         &kp RC(PG_UP)      &kp KP_PLUS            &kp KP_MINUS        &kp KP_ASTERISK  &kp KP_SLASH      &kp ENTER
+&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &none          &kp RC(PG_UP)      &kp KP_PLUS            &kp KP_MINUS        &kp KP_ASTERISK  &kp KP_SLASH      &kp ENTER
 &kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp F2         &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)       &kp RA(DOWN_ARROW)  &mt RCTRL COMMA  &mt RCTRL PERIOD  &kp DELETE
 &mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LA(L))    &kp LS(LA(N))    &kp LG(C)      &kp BACKSPACE      &kp RG(RC(RA(RS(C))))                                                         &mt RCTRL RC(K)
             >;
