@@ -55,7 +55,7 @@
         };
 
         layar1 {
-            bindings = <&lt_to_layer_0 1 0>;
+            bindings = <&lt_to_layer_0 2 0>;
             key-positions = <40 41>;
         };
 
@@ -118,7 +118,7 @@
         mb2_then_return_default_layer: mb2_then_default_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp MB2>, <&macro_wait_time 250>, <&to 0>;
+            bindings = <&mkp MB2>, <&macro_wait_time 250>, <&to 1>;
 
             label = "MB2_THEN_RETURN_DEFAULT_RAYER";
         };
@@ -159,7 +159,7 @@
 &kp Q             &kp W             &kp E         &kp R                &kp T                                      &kp Y        &kp U  &kp I     &kp O           &kp P
 &kp A             &kp S             &kp D         &kp F                &kp G        &kp LG(D)      &kp RA(R)      &kp H        &kp J  &kp K     &kp L           &kp ENTER
 &kp Z             &kp X             &kp C         &kp V                &kp B        &kp LA(B)      &kp RA(N)      &kp N        &kp M  &mkp MB1  &mt RCTRL SEMI  &kp DELETE
-&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 2 RC(P)                                   &mt SPACE RG(F)
+&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 2 TAB      &kp BACKSPACE  &lt 2 RC(P)                                   &mt SPACE RG(F)
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
