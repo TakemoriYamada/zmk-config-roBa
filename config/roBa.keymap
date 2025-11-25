@@ -159,7 +159,7 @@
 &kp Q             &kp W             &kp E         &kp R                &kp T                                      &kp Y        &kp U  &kp I     &kp O           &kp P
 &kp A             &kp S             &kp D         &kp F                &kp G        &kp LG(D)      &kp RA(R)      &kp H        &kp J  &kp K     &kp L           &kp ENTER
 &kp Z             &kp X             &kp C         &kp V                &kp B        &kp LA(B)      &kp RA(N)      &kp N        &kp M  &mkp MB1  &mt RCTRL SEMI  &kp DELETE
-&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 2 RC(P)                                   &mt SPACE RG(F)
+&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LC(LS(SPACE))  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 2 RC(P)                                   &mt RG(F) SPACE
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -170,7 +170,7 @@
 &kp F6           &kp F7             &kp F8          &kp F9              &kp F10                                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH            &kp AMPERSAND      &trans                  &id        &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow     &kp LS(LG(SPACE))  &password2              &password  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
-&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(LG(F5)))  &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
+&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(LG(F5)))  &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)  &kp RC(Y)                                                                      &mt RC(F) BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
@@ -181,7 +181,7 @@
 &kp LA(F4)          &kp LC(W)         &kp F4         &kp LC(R)              &kp LC(T)                                          &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
 &mt LEFT_ALT LC(A)  &kp LA(LG(M))     &kp LA(EQUAL)  &kp LG(LA(F))          &kp LC(EQUAL)  &kp LC(B)          &kp RC(AT_SIGN)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &kp RC(V)
 &kp LEFT_SHIFT      &kp LA(LBKT)      &kp LC(N)      &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(S)          &kp RC(R)        &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT END
-&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LC(LS(A))          &kp LC(N0)     &kp LC(LS(T))      &kp RC(X)        &kp RC(C)                                                                 &mt LEFT_CONTROL RC(F)
+&kp LEFT_GUI        &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LC(LS(A))          &kp LC(N0)     &kp LC(LS(T))      &kp RC(X)        &kp RC(C)                                                                 &mt LEFT_CONTROL RA(SLASH)
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE SPACE>;
