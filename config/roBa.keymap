@@ -55,7 +55,7 @@
         };
 
         layar1 {
-            bindings = <&lt_to_layer_0 2 0>;
+            bindings = <&lt_to_layer_0 1 0>;
             key-positions = <40 41>;
         };
 
