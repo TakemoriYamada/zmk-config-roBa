@@ -174,7 +174,7 @@
         FUNCTION {
             bindings = <
 &kp LA(F4)           &kp LC(W)         &kp F4         &kp LC(R)              &kp LC(T)                                          &kp RC(RA(TAB))     &kp RS(RC(TAB))      &kp RG(F5)      &kp RC(TAB)      &kp RC(RS(RA(TAB)))
-&mt LEFT_ALT LC(A)   &kp LA(LG(M))     &kp LA(EQUAL)  &kp LG(LA(F))          &kp LC(EQUAL)  &kp LC(N5)         &kp RC(AT_SIGN)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &kp RC(V)
+&kp LC(A)            &kp LA(LG(M))     &kp LA(EQUAL)  &kp LG(LA(F))          &kp LC(EQUAL)  &kp LC(N5)         &kp RC(AT_SIGN)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp RG(V)        &kp RC(V)
 &kp LEFT_SHIFT       &kp LA(LBKT)      &kp LC(N)      &kp LA(RIGHT_BRACKET)  &kp LC(MINUS)  &kp LC(B)          &kp RC(R)        &kp HOME            &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RIGHT_SHIFT END
 &mt LEFT_GUI ESCAPE  &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LC(LS(A))          &kp LC(N0)     &kp LC(LS(T))      &kp RC(X)        &kp RC(C)                                                                 &mt LEFT_CONTROL RA(SLASH)
             >;
