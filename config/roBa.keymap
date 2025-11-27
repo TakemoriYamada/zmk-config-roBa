@@ -54,11 +54,6 @@
             key-positions = <36 35>;
         };
 
-        layar1 {
-            bindings = <&lt_to_layer_0 1 0>;
-            key-positions = <40 41>;
-        };
-
         ctrl {
             bindings = <&lt_to_layer_0 1 0>;
             key-positions = <40 33>;
