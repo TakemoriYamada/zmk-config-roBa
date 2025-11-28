@@ -164,8 +164,8 @@
             bindings = <
 &kp F6               &kp F7             &kp F8          &kp F9              &kp F10                                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
 &kp EXCLAMATION      &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH            &kp AMPERSAND      &none                   &id        &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT       &kp_left_arrow     &kp_down_arrow  &kp_right_arrow     &kp LS(LG(SPACE))  &password2              &password  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp SLASH
-&mt LEFT_GUI ESCAPE  &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(LG(F5)))  &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)  &kp RC(Y)                                                                      &mt RC(F) BACKSLASH
+&kp LEFT_SHIFT       &kp_left_arrow     &kp_down_arrow  &kp_right_arrow     &kp LS(LG(SPACE))  &password2              &password  &kp LESS_THAN         &kp GREATER_THAN       &kp COMMA       &kp PERIOD        &kp BACKSLASH
+&mt LEFT_GUI ESCAPE  &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(LG(F5)))  &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)  &kp RC(Y)                                                                      &mt RC(F) SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
