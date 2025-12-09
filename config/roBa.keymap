@@ -184,7 +184,7 @@
 
         NUM {
             bindings = <
-&mt RS(TAB) LS(TAB)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &kp INT_YEN            &kp DOLLAR          &kp COLON        &kp TILDE         &kp PERCENT
+&kp RS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                            &kp INT_YEN            &kp DOLLAR          &kp COLON        &kp TILDE         &kp PERCENT
 &kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &none          &kp RC(PG_UP)      &kp KP_PLUS            &kp KP_MINUS        &kp KP_ASTERISK  &kp KP_SLASH      &kp ENTER
 &double_kp_00        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mt F2 KP_EQUAL  &kp LC(S)      &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)       &kp RA(DOWN_ARROW)  &mt RCTRL COMMA  &mt RCTRL PERIOD  &kp DELETE
 &mt LEFT_GUI ESCAPE  &kp KP_NUMBER_0  &kp SPACE        &kp LS(LA(L))    &kp LS(LA(M))    &kp LG(C)      &kp BACKSPACE      &kp RG(RC(RA(RS(C))))                                                         &mt RC(K) SEMICOLON
