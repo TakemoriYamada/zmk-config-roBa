@@ -63,6 +63,11 @@
             bindings = <&kp LC(W)>;
             key-positions = <37 1 2 3>;
         };
+
+        windou_move {
+            bindings = <&kp LA(LG(M))>;
+            key-positions = <37 10 11>;
+        };
     };
 
     macros {
