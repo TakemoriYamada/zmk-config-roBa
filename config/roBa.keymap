@@ -173,10 +173,10 @@
 
         NUM {
             bindings = <
-&kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                      &kp RA(INT_YEN)   &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
-&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &none                    &kp RC(PG_UP)      &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH          &kp ENTER
-&kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_EQUAL     &mt LEFT_COMMAND F2      &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
-&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LG(LS(B))            &kp BACKSPACE      &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
+&kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                  &kp RA(INT_YEN)   &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
+&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &none                    &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH          &kp ENTER
+&kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_EQUAL     &mt LEFT_COMMAND F2      &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
+&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LG(LS(B))            &kp BACKSPACE  &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
