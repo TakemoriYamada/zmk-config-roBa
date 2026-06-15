@@ -148,7 +148,7 @@
 &kp Q          &kp W         &kp E             &kp R            &kp T                                      &kp Y            &kp U  &kp I     &kp O               &kp P
 &kp A          &kp S         &kp D             &kp F            &kp G        &none          &bt BT_SEL 0   &kp H            &kp J  &kp K     &kp L               &kp ENTER
 &kp Z          &kp X         &kp C             &kp V            &kp B        &kp GLOBE      &bt BT_SEL 1   &kp N            &kp M  &mkp MB1  &mt RIGHT_ALT SEMI  &kp DELETE
-&mt LCTRL ESC  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LC(SPACE)  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 2 RA(SPACE)                                       &kp RA(RC(RG(RIGHT_SHIFT)))
+&mt LCTRL ESC  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 3 LC(SPACE)  &lt 2 SPACE  &lt 1 TAB      &kp BACKSPACE  &lt 2 RA(SPACE)                                       &kp RS(RC(RA(RIGHT_GUI)))
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -159,7 +159,7 @@
 &kp F6           &kp F7          &kp F8            &kp F9                &kp F10                                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
 &kp EXCLAMATION  &kp AT          &kp_up_arrow      &kp HASH              &kp CARET             &none                     &none      &kp AMPERSAND         &kp ASTERISK           &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT   &kp_left_arrow  &kp_down_arrow    &kp_right_arrow       &kp LG(LC(SPACE))     &kp LS(LG(NUMBER_5))      &none      &kp GRAVE             &kp RS(RA(K))          &kp COMMA       &kp PERIOD        &kp SQT
-&kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_4))  &kp LS(LG(O))             &kp RG(Z)  &kp RS(RG(Z))                                                                  &kp SLASH
+&kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &kp LS(LG(O))             &kp RG(Z)  &kp RS(RG(Z))                                                                  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
@@ -167,9 +167,9 @@
 
         FUNCTION {
             bindings = <
-&kp LG(Q)         &kp LG(W)                   &kp LG(LC(F))       &kp LG(R)                    &kp LG(T)                                    &kp RC(LEFT_ARROW)                &kp RS(RC(TAB))        &kp RC(UP_ARROW)  &kp RC(TAB)      &kp RC(RIGHT_ARROW)
-&kp RG(A)         &kp LC(LA(LG(LEFT_ARROW)))  &kp LA(LC(A))       &kp LC(LA(LG(RIGHT_ARROW)))  &kp LG(PLUS)   &trans             &trans     &kp RG(LEFT_BRACKET)              &kp RG(RIGHT_BRACKET)  &kp UP_ARROW      &kp RG(RC(V))    &kp RG(V)
-&kp LEFT_SHIFT    &kp LA(LC(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LA(LC(RIGHT_ARROW))      &kp LG(MINUS)  &kp GLOBE          &kp GRAVE  &mt RIGHT_CONTROL RG(LEFT_ARROW)  &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW  &mt RIGHT_ALT RG(RIGHT_ARROW)
+&kp LG(Q)         &kp LG(W)                   &kp LC(LG(F))       &kp LG(R)                    &kp LG(T)                                    &kp RC(LEFT_ARROW)                &kp RS(RC(TAB))        &kp RC(UP_ARROW)  &kp RC(TAB)      &kp RC(RIGHT_ARROW)
+&kp RG(A)         &kp LC(LA(LG(LEFT_ARROW)))  &kp LC(LA(A))       &kp LC(LA(LG(RIGHT_ARROW)))  &kp LG(PLUS)   &trans             &trans     &kp RG(LEFT_BRACKET)              &kp RG(RIGHT_BRACKET)  &kp UP_ARROW      &kp RC(RG(V))    &kp RG(V)
+&kp LEFT_SHIFT    &kp LC(LA(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(LA(RIGHT_ARROW))      &kp LG(MINUS)  &kp GLOBE          &kp GRAVE  &mt RIGHT_CONTROL RG(LEFT_ARROW)  &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW  &mt RIGHT_ALT RG(RIGHT_ARROW)
 &mt RCTRL ESCAPE  &kp LEFT_ALT                &kp LEFT_COMMAND    &kp LA(TAB)                  &kp LG(N0)     &kp LG(LA(L))      &kp RG(X)  &kp RG(C)                                                                                   &mt RIGHT_COMMAND RG(F)
             >;
 
@@ -181,7 +181,7 @@
 &kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                  &kp RA(Y)         &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
 &kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &trans                   &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH          &kp ENTER
 &kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_EQUAL     &mt LEFT_COMMAND F2      &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
-&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LG(LS(B))            &kp BACKSPACE  &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
+&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LS(LG(B))            &kp BACKSPACE  &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
