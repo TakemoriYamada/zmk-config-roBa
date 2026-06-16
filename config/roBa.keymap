@@ -59,11 +59,6 @@
             key-positions = <40 41>;
         };
 
-        ctrl {
-            bindings = <&kp LSHIFT>;
-            key-positions = <40 21>;
-        };
-
         drag {
             bindings = <&lt_to_layer_0 6 0>;
             key-positions = <33 41>;
