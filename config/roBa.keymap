@@ -151,7 +151,7 @@
 
         Symbol {
             bindings = <
-&kp F6           &kp F7          &kp F8            &kp F9                &kp F10                                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
+&kp F6           &kp F7          &kp F8            &kp F9                &kp F10                                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp GRAVE         &kp BACKSLASH
 &kp EXCLAMATION  &kp AT          &kp_up_arrow      &kp HASH              &kp CARET             &none                     &none      &kp AMPERSAND         &kp ASTERISK           &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT   &kp_left_arrow  &kp_down_arrow    &kp_right_arrow       &kp LG(LC(SPACE))     &kp LS(LG(NUMBER_5))      &none      &kp GRAVE             &kp APOSTROPHE         &kp COMMA       &kp PERIOD        &kp SLASH
 &kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &kp LS(LG(O))             &kp RG(Z)  &kp RS(RG(Z))                                                                  &kp RS(RA(K))
@@ -174,7 +174,7 @@
         NUM {
             bindings = <
 &kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                  &kp RA(Y)         &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
-&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &trans                   &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_SLASH          &kp ENTER
+&kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &trans                   &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_DIVIDE         &kp ENTER
 &kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_EQUAL     &mt LEFT_COMMAND F2      &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
 &mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LS(LG(B))            &kp BACKSPACE  &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
             >;
