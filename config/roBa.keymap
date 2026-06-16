@@ -154,7 +154,7 @@
 &kp F6           &kp F7          &kp F8            &kp F9                &kp F10                                              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp BACKSLASH
 &kp EXCLAMATION  &kp AT          &kp_up_arrow      &kp HASH              &kp CARET             &none               &none      &kp AMPERSAND         &kp ASTERISK           &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT   &kp_left_arrow  &kp_down_arrow    &kp_right_arrow       &kp LG(LC(SPACE))     &kp LS(LG(O))       &none      &kp APOSTROPHE        &kp DOUBLE_QUOTES      &kp COMMA       &kp PERIOD        &kp QUESTION
-&kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))      &kp RG(Z)  &kp RS(RG(Z))                                                                  &kp RS(RA(K))
+&kp LCTRL        &kp LEFT_ALT    &kp LEFT_COMMAND  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))      &kp RG(Z)  &kp RS(RG(Z))                                                                  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
