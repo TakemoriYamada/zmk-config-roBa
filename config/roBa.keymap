@@ -165,7 +165,7 @@
 &kp LG(Q)         &kp LG(W)                   &kp LC(LG(F))       &kp LG(R)                    &kp LG(T)                                    &kp RC(LEFT_ARROW)                 &kp RS(RC(TAB))        &kp RC(UP_ARROW)  &kp RC(TAB)      &kp RC(RIGHT_ARROW)
 &kp RG(A)         &kp LC(LA(LG(LEFT_ARROW)))  &kp LC(LA(A))       &kp LC(LA(LG(RIGHT_ARROW)))  &kp LG(PLUS)   &trans             &trans     &kp RG(LEFT_BRACKET)               &kp RG(RIGHT_BRACKET)  &kp UP_ARROW      &kp RC(RG(V))    &kp RG(V)
 &kp LEFT_SHIFT    &kp LC(LA(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(LA(RIGHT_ARROW))      &kp LG(MINUS)  &kp GLOBE          &kp GRAVE  &mt RIGHT_CONTROL RS(RA(PAGE_UP))  &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW  &mt RIGHT_ALT RS(RC(PAGE_DOWN))
-&mt RCTRL ESCAPE  &kp LEFT_ALT                &kp LEFT_COMMAND    &kp LA(TAB)                  &kp LG(N0)     &kp LG(LA(L))      &kp RG(X)  &kp RG(C)                                                                                    &mt RIGHT_COMMAND RG(F)
+&mt RCTRL ESCAPE  &kp LEFT_ALT                &kp LEFT_COMMAND    &kp LA(TAB)                  &kp LG(N0)     &kp LG(LA(L))      &kp RG(X)  &mt RG(P) RG(C)                                                                              &mt RIGHT_COMMAND RG(F)
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE SPACE>;
@@ -176,7 +176,7 @@
 &kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                  &kp RA(Y)         &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
 &kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW  &trans                   &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_DIVIDE         &kp ENTER
 &kp KP_N0            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_EQUAL     &mt LEFT_COMMAND F2      &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
-&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LS(LG(B))            &kp BACKSPACE  &mt F4 RG(P)                                                                         &mt RCTRL RG(L)
+&mt LEFT_GUI ESCAPE  &double_kp_00    &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)    &kp LS(LG(B))            &kp BACKSPACE  &kp F4                                                                               &mt RCTRL RG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
