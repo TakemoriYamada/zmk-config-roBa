@@ -68,6 +68,11 @@
             bindings = <&none>;
             key-positions = <41 33>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <1 2 3>;
+        };
     };
 
     macros {
@@ -197,7 +202,7 @@
 &kp RS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp TAB                                                        &kp SLASH         &kp DOLLAR          &kp COLON        &kp TILDE         &kp PERCENT
 &kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_ARROW  &none                      &kp RC(PG_UP)      &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK  &kp KP_SLASH      &kp ENTER
 &kp SPACE            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F2           &kp LS(LA(LC(LG(C))))      &kp RC(PAGE_DOWN)  &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RCTRL COMMA  &mt RCTRL PERIOD  &kp DELETE
-&mt LEFT_GUI ESCAPE  &kp KP_NUMBER_0  &double_kp_00    &kp LS(LA(L))    &kp LS(LA(M))    &kp LG(C)                  &kp BACKSPACE      &kp KP_EQUAL                                                             &mt RCTRL RC(K)
+&mt LEFT_GUI ESCAPE  &kp KP_NUMBER_0  &double_kp_00    &kp LS(LA(L))    &kp LS(LA(M))    &kp LG(C)                  &kp BACKSPACE      &kp KP_EQUAL                                                             &mt RIGHT_SHIFT RC(K)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
