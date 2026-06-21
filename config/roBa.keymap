@@ -65,7 +65,7 @@
         };
 
         drag_layer {
-            bindings = <&to 6>;
+            bindings = <&lt_to_layer_0 6 0>;
             key-positions = <41 33>;
         };
 
