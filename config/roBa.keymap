@@ -180,8 +180,8 @@
             bindings = <
 &kp LS(TAB)          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp TAB                                                &kp RA(Y)         &kp DOLLAR          &kp COLON                &kp TILDE             &kp PERCENT
 &kp LEFT_ARROW       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp RIGHT_ARROW      &trans             &trans         &kp KP_PLUS       &kp KP_MINUS        &kp KP_ASTERISK          &kp KP_DIVIDE         &kp ENTER
-&kp SPACE            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &mt LEFT_COMMAND F2  &trans             &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
-&mt LEFT_GUI ESCAPE  &kp KP_NUMBER_0  &double_kp_00    &kp LS(LG(SPACE))  &kp LG(SPACE)        &kp LS(LG(B))      &kp BACKSPACE  &kp KP_EQUAL                                                                         &mt RIGHT_SHIFT RG(L)
+&kp BACKSPACE        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &mt LEFT_COMMAND F2  &trans             &trans         &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &mt RIGHT_COMMAND COMMA  &mt RIGHT_ALT PERIOD  &kp DELETE
+&mt LEFT_GUI ESCAPE  &kp KP_NUMBER_0  &kp SPACE        &kp LS(LG(SPACE))  &kp LG(SPACE)        &kp LS(LG(B))      &kp BACKSPACE  &kp KP_EQUAL                                                                         &mt RIGHT_SHIFT RG(L)
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
