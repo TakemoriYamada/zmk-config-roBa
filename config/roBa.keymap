@@ -228,8 +228,8 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans         &trans                  &kp RC(SPACE)           &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &trans                  &kp RS(RC(UP_ARROW))    &trans                   &trans
+&trans  &trans  &trans  &trans  &trans                      &trans         &kp RS(RC(TAB))         &kp RC(SPACE)           &kp RS(RC(PAGE_UP))      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &kp RC(TAB)             &kp RS(RC(UP_ARROW))    &kp RS(RC(PAGE_DOWN))    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(SPACE)  &kp RS(RC(LEFT_ARROW))  &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                  &trans
             >;
