@@ -207,10 +207,10 @@
 
         Consumer_drag {
             bindings = <
-&trans  &kp C_VOLUME_DOWN     &kp C_MUTE        &kp C_VOLUME_UP  &trans                      &trans  &trans                  &trans                  &trans                   &trans
-&trans  &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans      &trans  &trans  &trans                  &kp RS(RA(UP_ARROW))    &trans                   &trans
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_SLEEP_MODE  &kp C_BRI_UP     &trans  &trans      &trans  &trans  &kp RS(RA(LEFT_ARROW))  &kp RS(RA(DOWN_ARROW))  &kp RS(RA(RIGHT_ARROW))  &trans
-&trans  &trans                &trans            &trans           &trans  &trans      &trans  &trans                                                                           &trans
+&trans  &kp C_VOLUME_DOWN     &kp C_MUTE        &kp C_VOLUME_UP  &trans                      &trans         &trans                  &kp RC(SPACE)           &trans                   &trans
+&trans  &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans      &trans  &trans         &trans                  &kp RS(RA(UP_ARROW))    &trans                   &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_SLEEP_MODE  &kp C_BRI_UP     &trans  &trans      &trans  &kp RS(SPACE)  &kp RS(RA(LEFT_ARROW))  &kp RS(RA(DOWN_ARROW))  &kp RS(RA(RIGHT_ARROW))  &trans
+&trans  &trans                &trans            &trans           &trans  &trans      &trans  &trans                                                                                  &trans
             >;
         };
     };
