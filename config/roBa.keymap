@@ -139,6 +139,13 @@
             bindings = <&kp A &kp M &kp C &kp N0 &kp N7 &kp N1 &kp N3 &kp N1 &kp N0>;
             label = "PASSWORD2";
         };
+
+        password3: password3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp N7 &kp N1 &kp N3 &kp N1 &kp N0>;
+            label = "PASSWORD3";
+        };
     };
 
     behaviors {
