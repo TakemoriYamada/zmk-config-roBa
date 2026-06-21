@@ -44,7 +44,7 @@
             key-positions = <22 23>;
         };
 
-        num_layer {
+        MB2 {
             bindings = <&mkp MB2>;
             key-positions = <31 32>;
         };
@@ -59,7 +59,7 @@
             key-positions = <40 41>;
         };
 
-        drag {
+        to_layar6 {
             bindings = <&lt_to_layer_0 6 0>;
             key-positions = <33 41>;
         };
