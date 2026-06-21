@@ -44,7 +44,7 @@
             key-positions = <22 23>;
         };
 
-        num_layer {
+        mb2_combo {
             bindings = <&mkp MB2>;
             key-positions = <31 32>;
         };
