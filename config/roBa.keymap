@@ -118,7 +118,7 @@
             label = "PS";
         };
 
-        password: ID {
+        miniPC_pass: ID {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N0 &kp N0 &kp N0 &kp N1 &kp N2 &kp N3 &kp N2 &kp N7 &kp AT_SIGN &kp B &kp S &kp LS(R)>;
@@ -133,14 +133,14 @@
             label = "MB2_THEN_RETURN_DEFAULT_RAYER";
         };
 
-        password2: password2 {
+        AMC_pass: password2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp A &kp M &kp C &kp N0 &kp N7 &kp N1 &kp N3 &kp N1 &kp N0>;
             label = "PASSWORD2";
         };
 
-        password3: password3 {
+        ipad_pass: password3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N0 &kp N7 &kp N1 &kp N3 &kp N1 &kp N0>;
@@ -184,10 +184,10 @@
 
         Symbol {
             bindings = <
-&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND      &none                   &id        &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))  &password2              &password  &kp GRAVE             &kp CARET              &kp COMMA       &kp PERIOD        &kp SLASH
-&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(F5))   &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)  &kp RC(Y)                                                                      &kp BACKSLASH
+&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND      &none                   &id           &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))  &AMC_pass               &miniPC_pass  &kp GRAVE             &kp CARET              &kp COMMA       &kp PERIOD        &kp SLASH
+&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(F5))   &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)     &kp RC(Y)                                                                      &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
