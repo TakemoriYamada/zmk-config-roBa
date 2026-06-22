@@ -167,10 +167,10 @@
 
         FUNCTION {
             bindings = <
-&kp LG(Q)            &kp LG(W)                   &kp LC(LG(F))       &kp LG(R)                    &kp LG(T)                                    &kp RC(LEFT_ARROW)                 &kp RS(RC(TAB))        &kp RC(UP_ARROW)  &kp RC(TAB)      &kp RC(RIGHT_ARROW)
-&kp RG(A)            &kp LC(LA(LG(LEFT_ARROW)))  &kp LC(LA(A))       &kp LC(LA(LG(RIGHT_ARROW)))  &kp LG(PLUS)   &trans             &trans     &kp RG(LEFT_BRACKET)               &kp RG(RIGHT_BRACKET)  &kp UP_ARROW      &kp RC(RG(V))    &kp RG(V)
-&kp LEFT_SHIFT       &kp LC(LA(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(LA(RIGHT_ARROW))      &kp LG(MINUS)  &kp GLOBE          &kp GRAVE  &mt RIGHT_CONTROL RS(RA(PAGE_UP))  &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW  &mt RIGHT_ALT RS(RC(PAGE_DOWN))
-&mt RCTRL LA(SLASH)  &kp LEFT_ALT                &kp LEFT_COMMAND    &kp LA(TAB)                  &kp LG(N0)     &kp LG(LA(L))      &kp RG(X)  &mt RG(P) RG(C)                                                                              &mt RIGHT_COMMAND RG(F)
+&kp LG(Q)                 &kp LG(W)                   &kp LC(LG(F))       &kp LG(R)                    &kp LG(T)                                    &kp RC(LEFT_ARROW)                 &kp RS(RC(TAB))        &kp RC(UP_ARROW)  &kp RC(TAB)      &kp RC(RIGHT_ARROW)
+&kp RG(A)                 &kp LC(LA(LG(LEFT_ARROW)))  &kp LC(LA(A))       &kp LC(LA(LG(RIGHT_ARROW)))  &kp LG(PLUS)   &trans             &trans     &kp RG(LEFT_BRACKET)               &kp RG(RIGHT_BRACKET)  &kp UP_ARROW      &kp RC(RG(V))    &kp RG(V)
+&mt LEFT_SHIFT LA(SLASH)  &kp LC(LA(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(LA(RIGHT_ARROW))      &kp LG(MINUS)  &kp GLOBE          &kp GRAVE  &mt RIGHT_CONTROL RS(RA(PAGE_UP))  &kp LEFT_ARROW         &kp DOWN_ARROW    &kp RIGHT_ARROW  &mt RIGHT_ALT RS(RC(PAGE_DOWN))
+&mt RCTRL LA(ESCAPE)      &kp LEFT_ALT                &kp LEFT_COMMAND    &kp LA(TAB)                  &kp LG(N0)     &kp LG(LA(L))      &kp RG(X)  &mt RG(P) RG(C)                                                                              &mt RIGHT_COMMAND RG(F)
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE SPACE>;
