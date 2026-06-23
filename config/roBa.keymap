@@ -185,6 +185,17 @@
             quick-tap-ms = <200>;
             tapping-term-ms = <200>;
         };
+
+        lt_backspace: lt_backspace {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_BACKSPACE";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     keymap {
