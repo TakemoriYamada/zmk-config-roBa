@@ -182,6 +182,8 @@
             label = "F2_EQURL";
             #binding-cells = <0>;
             bindings = <&kp F2>, <&kp KP_EQUAL>;
+
+            tapping-term-ms = <250>;
         };
 
         lt_repeat: lt_repeat {
