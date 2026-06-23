@@ -69,19 +69,9 @@
             key-positions = <41 33>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <1 2 3>;
-        };
-
         Consumer_subfunction2 {
             bindings = <&lt_to_layer_0 6 0>;
             key-positions = <38 22>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <37 38>;
         };
     };
 
