@@ -205,6 +205,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        minipcpass_globe: minipcpass_globe {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MINIPCPASS_GLOBE";
+            #binding-cells = <0>;
+            bindings = <&miniPC_pass>, <&kp GLOBE>;
+        };
     };
 
     keymap {
@@ -212,10 +219,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E         &kp R        &kp T                                                        &kp Y        &kp U  &kp I     &kp O           &kp P
-&kp A             &kp S             &kp D         &kp F        &kp G              &kp LG(D)      &kp RA(R)                  &kp H        &kp J  &kp K     &kp L           &kp ENTER
-&kp Z             &kp X             &kp C         &kp V        &kp B              &kp LC(B)      &kp RA(N)                  &kp N        &kp M  &mkp MB1  &mt RCTRL SEMI  &kp DELETE
-&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 GLOBE  &lt_space 2 SPACE  &lt 1 TAB      &lt_backspace 1 BACKSPACE  &lt 2 RC(P)                                   &kp RG(F)
+&kp Q             &kp W             &kp E         &kp R        &kp T                                                          &kp Y        &kp U  &kp I     &kp O           &kp P
+&kp A             &kp S             &kp D         &kp F        &kp G              &kp LG(D)        &kp RA(R)                  &kp H        &kp J  &kp K     &kp L           &kp ENTER
+&kp Z             &kp X             &kp C         &kp V        &kp B              &lt 7 LC(B)      &mt GLOBE RA(N)            &kp N        &kp M  &mkp MB1  &mt RCTRL SEMI  &kp DELETE
+&mt LEFT_GUI ESC  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 GLOBE  &lt_space 2 SPACE  &lt 1 TAB        &lt_backspace 1 BACKSPACE  &lt 2 RC(P)                                   &kp RG(F)
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -223,10 +230,10 @@
 
         Symbol {
             bindings = <
-&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND      &ipad_pass              &id           &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))  &AMC_pass               &miniPC_pass  &kp GRAVE             &kp CARET              &kp COMMA       &kp PERIOD        &kp SLASH
-&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(F5))   &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)     &kp RC(Y)                                                                      &kp BACKSLASH
+&kp F6           &kp F7             &kp F8          &kp F9           &kp F10                                                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE         &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp_up_arrow    &kp HASH         &kp AMPERSAND      &ipad_pass              &id                &kp SINGLE_QUOTE      &kp AT_SIGN            &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT   &kp_left_arrow     &kp_down_arrow  &kp_right_arrow  &kp LS(LG(SPACE))  &AMC_pass               &minipcpass_globe  &kp GRAVE             &kp CARET              &kp COMMA       &kp PERIOD        &kp SLASH
+&kp LEFT_GUI     &kp LEFT_CONTROL   &kp LEFT_ALT    &kp LC(LA(F5))   &kp LC(LG(F5))     &kp LS(LC(LG(F5)))      &kp RC(Z)          &kp RC(Y)                                                                      &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
@@ -278,6 +285,15 @@
 &trans  &kp C_PREV     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans      &trans  &trans         &kp RC(TAB)             &kp RS(RC(UP_ARROW))    &kp RS(RC(PAGE_DOWN))    &trans
 &trans  &kp C_BRI_DEC  &kp C_SLEEP       &kp C_BRI_UP     &trans  &trans      &trans  &kp LS(SPACE)  &kp RS(RC(LEFT_ARROW))  &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))  &trans
 &trans  &bt BT_SEL 0   &bt BT_SEL 1      &trans           &trans  &trans      &trans  &trans                                                                                  &trans
+            >;
+        };
+
+        ipad {
+            bindings = <
+&kp Q               &kp M                   &kp F           &kp N                    &kp C                                       &kp RA(LEFT_ARROW)      &kp RC(UP_ARROW)    &kp UP_ARROW  &kp RS(RC(UP_ARROW))    &kp RA(RIGHT_ARROW)
+&kp LG(LEFT_ARROW)  &kp LC(LEFT_ARROW)      &kp BACKSLASH   &kp LC(RIGHT_ARROW)      &kp LG(RIGHT_ARROW)  &kp D       &trans     &kp RC(RS(LEFT_ARROW))  &kp RC(DOWN_ARROW)  &kp H         &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))
+&kp GRAVE           &kp LC(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LS(LC(RIGHT_ARROW))  &kp H                &trans      &trans     &kp GRAVE               &kp LEFT_ARROW      &kp A         &kp RIGHT_ARROW         &kp RG(BACKSLASH)
+&kp SPACE           &kp LS(A)               &kp A           &trans                   &kp GLOBE            &trans      &kp RS(A)  &kp A                                                                             &kp Q
             >;
         };
     };
