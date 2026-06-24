@@ -290,10 +290,10 @@
 
         ipad {
             bindings = <
-&kp Globe+Q               &kp Globe+M                   &kp Globe+F           &kp Globe+N                    &kp Globe+C                                       &kp RA(LEFT_ARROW)      &kp RC(UP_ARROW)    &kp UP_ARROW  &kp RS(RC(UP_ARROW))    &kp RA(RIGHT_ARROW)
-&kp LG(LEFT_ARROW)  &kp LC(LEFT_ARROW)      &kp BACKSLASH   &kp LC(RIGHT_ARROW)      &kp LG(RIGHT_ARROW)  &kp Globe+D       &trans     &kp RC(RS(LEFT_ARROW))  &kp RC(DOWN_ARROW)  &kp Globe+H         &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))
-&kp Globe+GRAVE           &kp LC(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LS(LC(RIGHT_ARROW))  &kp H                &trans      &trans     &kp Globe+GRAVE               &kp LEFT_ARROW      &kp Globe+A         &kp RIGHT_ARROW         &kp RG(BACKSLASH)
-&kp SPACE           &kp LS(A)               &kp Globe+A           &trans                   &kp GLOBE            &trans      &kp RS(A)  &kp Globe+A                                                                             &kp Globe+Q
+&kp Q               &kp M                   &kp F           &kp N                    &kp C                                       &kp RA(LEFT_ARROW)      &kp RC(UP_ARROW)    &kp UP_ARROW  &kp RS(RC(UP_ARROW))    &kp RA(RIGHT_ARROW)
+&kp LG(LEFT_ARROW)  &kp LC(LEFT_ARROW)      &kp BACKSLASH   &kp LC(RIGHT_ARROW)      &kp LG(RIGHT_ARROW)  &kp D       &trans     &kp RC(RS(LEFT_ARROW))  &kp RC(DOWN_ARROW)  &kp H         &kp RS(RC(DOWN_ARROW))  &kp RS(RC(RIGHT_ARROW))
+&kp GRAVE           &kp LC(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LS(LC(RIGHT_ARROW))  &kp H                &trans      &trans     &kp GRAVE               &kp LEFT_ARROW      &kp A         &kp RIGHT_ARROW         &kp RG(BACKSLASH)
+&kp SPACE           &kp LS(A)               &kp A           &trans                   &kp GLOBE            &trans      &kp RS(A)  &kp A                                                                             &kp Q
             >;
         };
     };
