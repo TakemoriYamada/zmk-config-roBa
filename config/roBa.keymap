@@ -182,8 +182,9 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <150>;
             tapping-term-ms = <150>;
+            require-prior-idle-ms = <116>;
         };
 
         lt_backspace: lt_backspace {
@@ -193,8 +194,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <(-1)>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <120>;
         };
 
         globe_paste: globe_paste {
@@ -204,6 +205,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <149>;
+            quick-tap-ms = <148>;
+            require-prior-idle-ms = <120>;
         };
 
         minipcpass_globe: minipcpass_globe {
